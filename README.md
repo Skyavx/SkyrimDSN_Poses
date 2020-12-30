@@ -1,2 +1,2 @@
 # SkyrimDSN_Poses
-.txt files for pose mods for Skyrim VR and Dragonborn Speaks Naturally
+Adds .xml files for Dragon Born Speaks Naturally so you can trigger poses from voice commands
