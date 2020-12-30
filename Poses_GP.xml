@@ -8,10 +8,26 @@
 
 	<!--
 		Goma Pero Pero Poses
+		https://forums.nexusmods.com/index.php?/topic/478735-another-huge-list-of-commands/
 	-->
 	<rule id="Main">
 		<one-of>
 			<item><ruleref uri="#GomaPeroPoses" /></item>
+			<item><ruleref uri="#Tools" /></item>
+		</one-of>
+	</rule>
+
+	<rule id="Tools">
+		<one-of>
+			<item>Show Pose<tag></tag>"SA"</item>
+			<item>Toggle Movement<tag></tag>"TMOVE"</item>
+			<item>Toggle AI<tag></tag>"TAI"</item>
+			<item>Toggle Collisions<tag></tag>"TCL"</item>
+			<item>Show Race Menu<tag></tag>"ShowRaceMenu"</item>
+			<item>Speak<tag></tag>"SpeakSound"</item>
+			<item>Toggle Collision Mesh<tag></tag>"colmesh"</item>
+
+
 		</one-of>
 	</rule>
 
