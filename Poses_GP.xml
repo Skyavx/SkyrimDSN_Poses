@@ -8,7 +8,7 @@
 
 	<!--
 		Goma Pero Pero Poses
-
+		https://forums.nexusmods.com/index.php?/topic/478735-another-huge-list-of-commands/
 	-->
 	<rule id="Main">
 		<one-of>
@@ -17,29 +17,27 @@
 	</rule>
 
 	<rule id="GomaPeroPoses">
-		<one-of>
-			<item><ruleref uri="#GroupSelector" /><tag>var pose=rules.latest()</tag></item>
-		</one-of>
+		<ruleref uri="#GroupSelector" />
 		<ruleref uri="#NumSelector" />
-		<tag>out = "SAE " + pose.group + "GOM" + rules.NumSelector</tag>
+		<tag>out = "SAE " + rules.GroupSelector + "GOM" + rules.NumSelector</tag>
 	</rule>
 
 	<rule id="GroupSelector">
 		<one-of>
-			<item>Pose GP 1<tag>out.group=1</tag></item>
-			<item>Pose GP 2<tag>out.group=2</tag></item>
-			<item>Pose GP 3<tag>out.group=3</tag></item>
-			<item>Pose GP 4<tag>out.group=4</tag></item>
-			<item>Pose GP 5<tag>out.group=5</tag></item>
-			<item>Pose GP 6<tag>out.group=6</tag></item>
-			<item>Pose GP 7<tag>out.group=7</tag></item>
-			<item>Pose GP 8<tag>out.group=8</tag></item>
-			<item>Pose GP 9<tag>out.group=9</tag></item>
-			<item>Pose GP 10<tag>out.group=10</tag></item>
-			<item>Pose GP 11<tag>out.group=11</tag></item>
-			<item>Pose GP 12<tag>out.group=12</tag></item>
-			<item>Pose GP 13<tag>out.group=13</tag></item>
-			<item>Pose GP 14<tag>out.group=14</tag></item>
+			<item>Pose GP 1<tag>out=1</tag></item>
+			<item>Pose GP 2<tag>out=2</tag></item>
+			<item>Pose GP 3<tag>out=3</tag></item>
+			<item>Pose GP 4<tag>out=4</tag></item>
+			<item>Pose GP 5<tag>out=5</tag></item>
+			<item>Pose GP 6<tag>out=6</tag></item>
+			<item>Pose GP 7<tag>out=7</tag></item>
+			<item>Pose GP 8<tag>out=8</tag></item>
+			<item>Pose GP 9<tag>out=9</tag></item>
+			<item>Pose GP 10<tag>out=10</tag></item>
+			<item>Pose GP 11<tag>out=11</tag></item>
+			<item>Pose GP 12<tag>out=12</tag></item>
+			<item>Pose GP 13<tag>out=13</tag></item>
+			<item>Pose GP 14<tag>out=14</tag></item>
 		</one-of>
 	</rule>
 
@@ -85,6 +83,27 @@
 			<item>38<tag>out = 38</tag></item>
 			<item>39<tag>out = 39</tag></item>
 			<item>40<tag>out = 40</tag></item>
+			<item>41<tag>out = 41</tag></item>
+			<item>42<tag>out = 42</tag></item>
+			<item>43<tag>out = 43</tag></item>
+			<item>44<tag>out = 44</tag></item>
+			<item>45<tag>out = 45</tag></item>
+			<item>46<tag>out = 46</tag></item>
+			<item>47<tag>out = 47</tag></item>
+			<item>48<tag>out = 48</tag></item>
+			<item>49<tag>out = 49</tag></item>
+			<item>50<tag>out = 50</tag></item>
+			<item>51<tag>out = 51</tag></item>
+			<item>52<tag>out = 52</tag></item>
+			<item>53<tag>out = 53</tag></item>
+			<item>54<tag>out = 54</tag></item>
+			<item>55<tag>out = 55</tag></item>
+			<item>56<tag>out = 56</tag></item>
+			<item>57<tag>out = 57</tag></item>
+			<item>58<tag>out = 58</tag></item>
+			<item>59<tag>out = 59</tag></item>
+			<item>60<tag>out = 60</tag></item>
+
 		</one-of>
 	</rule>
 
